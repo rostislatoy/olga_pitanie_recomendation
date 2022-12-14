@@ -232,6 +232,6 @@ color: #000000;
     @media screen and (max-width:380px){
         main{
             width:280%;
-
+            height: 2425vh;
         }
     }
