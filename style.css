@@ -189,7 +189,7 @@ color: #000000;
 @media screen and (max-width:768px){
         main{
             width: 270%;
-            height: 2850vh;
+            height: 2720vh;
         }
         header{
             height:300vh;
