@@ -1,0 +1,237 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+ 
+}
+body{
+    margin: 0px;
+    padding: 0px; 
+    background-color:#247D63;
+}
+header{
+ 
+    width:100%;
+    height: 100vh;
+    background-color:#247D63;
+    display:block;
+
+}
+main{
+
+    width:100%;
+    height: 2250vh;
+    background-color:#ffffff;
+}
+footer{
+    width:100%;
+    height: 30vh;
+    background-color:#247D63;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.h1-title{
+
+    font-family: 'Inter';
+
+    font-size: 36px;
+    line-height: 50px;
+    color: #247D63;  
+    text-align:center;
+    margin-top: 25px;
+}
+.text{
+    font-size: 132px;
+    line-height: 105px;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-top: 60px;
+    margin-left: 40px;
+
+    
+}
+.text:nth-child(2){
+    line-height: 115px;
+    margin-top: 5px;
+}
+.text2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 40px;
+margin-left: 45px;
+margin-top: 10vh;
+color: #FFFFFF;
+}
+.btn-download{
+background: #0F1E19;
+border-radius: 14px;
+width: 200px;
+height: 74px;
+color: white;
+border: none;
+margin-left: 40px;
+margin-top: 25px;
+font-size: 26px;
+font-family: 'inter';
+transition: transform 0.3s;
+cursor: pointer;
+}
+.btn-download:hover{
+    transform: scale(1.1)
+}
+.text-main{
+
+/* position: absolute; */
+min-width: 360px;
+max-height: 500px;
+margin-top: 50px;
+padding: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 40px;
+/* or 150% */
+
+color: #000000;
+
+}
+.image{
+    /* display: inline-block; */
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:230px;
+    height: 200px;
+}
+.image2{
+    /* display: inline-block; */
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:350px;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+.btn-buy{
+    background: #247D63;
+    border-radius: 10px;
+    width: 250px;
+    height: 74px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin-top: 25px;  
+    margin: 0 auto;
+    display:block;
+    font-size: 24px;
+    font-family: 'inter';
+    transition: transform 0.3s;
+    cursor: pointer;
+    }
+    .btn-buy:hover{
+        transform: scale(1.1)
+    }
+    .h4-title{
+        font-family: 'Inter';
+
+    font-size: 20px;
+    line-height: 45px;
+    color: #000000;  
+    text-align:center;
+    margin-top: 25px;
+}
+.h1-footer{
+    font-family: 'Inter';
+    font-size: 30px;
+
+    color: #ffffff;  
+    text-align:center;
+    margin-top: 25px;
+
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display:block;
+    transition: transform 0.3s;
+}
+    .icon:hover{
+        transform: scale(1.1)
+    }
+.text3{
+    font-size: 132px;
+    line-height: 70px;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-top: 60px;
+    margin-left: 40px;
+
+    
+}
+.arrow{
+   display:none;
+   margin-left: 50%;
+}
+@media screen and (max-width:768px){
+        main{
+            width: 270%;
+            height: 2850vh;
+        }
+        header{
+            height:300vh;
+        }
+        .btn-download{
+            width: 400px;
+            height: 148px;
+            font-size: 36px;
+            
+        }
+        .text2{
+            font-size: 36px;
+            font-weight: 500;
+        }
+        .text-main{
+            font-size: 32px;
+            max-height:1200px;
+        }
+        .h1-title{
+            font-size: 38px;
+        }
+        .h1-footer{
+            text-align: center;
+            display:inline-block;
+            position: relative;
+            left: 50vh;
+        }
+        .icon{
+            display: inline-block;
+            position: relative;
+            left: 28vh;
+            top: 10vh;
+            width: 80px;
+
+        }
+        .text{
+            margin-right: 40px;
+        }
+    }
+    @media screen and (max-width:380px){
+        main{
+            width:280%;
+            
+        }
+    }
